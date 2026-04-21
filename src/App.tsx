@@ -14,6 +14,7 @@ import {
   ArrowRight
 } from 'lucide-react';
 import { motion } from 'motion/react';
+import heroImage from '../picture-1.jpg';
 
 export default function App() {
   const EXTERNAL_URL = "https://travelai.top/";
@@ -89,7 +90,7 @@ export default function App() {
             >
               <div className="relative aspect-square md:aspect-video rounded-[2rem] overflow-hidden shadow-2xl border-8 border-white">
                 <img 
-                  src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=2070" 
+                  src={heroImage} 
                   alt="Scenic landscape" 
                   className="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-1000"
                   referrerPolicy="no-referrer"
